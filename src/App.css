@@ -1,0 +1,53 @@
+.cards-section{
+  overflow: hidden;
+}
+.dribble-cards{
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+  animation-name: card-animation;
+  animation-duration: 20s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes card-animation{
+  0%{}
+  100%{
+      transform: translate(-100%);
+
+  }
+}
+.dribble-cards::-webkit-scrollbar{
+  display: none;
+}
+
+.card{
+  width: 100px;
+  height: 50px;
+  
+  border-radius: 26px;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+.dribble-cardss{
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+  animation-name: card-animations;
+  animation-duration: 20s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes card-animations{
+  0%{}
+  100%{
+      transform: translate(100%);
+
+  }
+}
