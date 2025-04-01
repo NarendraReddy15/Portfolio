@@ -62,6 +62,21 @@ function App() {
         <section className="mt-10  max-w-4xl p-4 mx-auto">
           <h1 className="text-2xl font-black">Projects</h1>
           <div className="flex justify-between items-center">
+            <h2 className="text-l mt-2.5 font-black">Traker</h2>
+            <div>
+              <p className="text-neutral-500 text-sm font-light">2025</p>
+            </div>
+          </div>
+
+          <p className="font-light text-neutral-500 mt-2">
+            Full Stack | JavaScript, React.js, C#,.Net
+            <br />* Designed and developed a platform using React.js, Expo, and
+            ASP.NET Core to help individuals manage their work progress and
+            tasks. It provides a centralized interface for updating work status
+            and monitoring overall task completion
+          </p>
+
+          <div className="flex justify-between items-center">
             <h2 className="text-l mt-2.5 font-black">Chatbot</h2>
             <div>
               <p className="text-neutral-500 text-sm font-light">
@@ -103,11 +118,18 @@ function App() {
               </div>
               <div>
                 <p className="text-neutral-500 text-sm font-light">
-                  Nov 2024-present
+                  Oct 2024- Mar 2025
                 </p>
               </div>
             </div>
           </div>
+          <p className="font-light text-neutral-500 mt-2">
+            * Designed and developed a platform using React.js, Expo, and
+            ASP.NET Core to help individuals manage their work progress and
+            tasks and provides a centralized interface for updating work status
+            and monitoring overall task completion <br />* Integrated real-time
+            data and location-based features to enhance the user experience
+          </p>
         </section>
 
         <section className=" mt-10 p-4  max-w-4xl mx-auto ">
